@@ -24,7 +24,7 @@ function Navbar() {
   const [blindClickCount, setBlindClickCount] = useState(0);
 
   const navigate = useNavigate();
-  const menuItems = ["Homekjdskjdskjsd", "About", "Curtain", "Blinds", "Contact", "Cleaning"];
+  const menuItems = ["Home", "About", "Curtain", "Blinds", "Contact", "Cleaning"];
 
   const handleBlindClick = () => {
     if (blindClickCount === 0) {
